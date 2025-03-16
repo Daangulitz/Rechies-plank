@@ -9,15 +9,11 @@ public class setPosition : MonoBehaviour
     
     public Transform target;
 
-    private void Start()
-    {
-        recenter();
-    }
-
     void Update()
     {
         if (recenterButton.action.WasPressedThisFrame())
         {
+            Debug.Log("recenter");
             recenter();
         }
     }

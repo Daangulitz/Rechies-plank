@@ -15,7 +15,6 @@ public class GroundCheck : MonoBehaviour
     {
         if (IsGrounded())
         {
-            rb.useGravity = false;
         }
         else
         {
